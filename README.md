@@ -4,7 +4,9 @@
 Criar um sistema em Golang para tratar e salvar dados de um arquivo .txt ou .csv em um banco de dados PostgreSQL, o nome do arquivo será solicitado na inicialização do sistema.
 
 Saliento que o projeto pode ser executado de duas formas:
+
 ✅ **Localhost:** Desta forma o projeto apresenta melhor desempenho, processo completo realizado em menos de 1 min. e 20 seg. considerando um arquivo de 50 mil registros.
+
 ⛔ **Docker:** Embora tenha deixado esta opção disponível, existe um grande problema de desempenho em arquivos com grandes quatidades de registros, chegando a levar 20 min. para 50 mil registros. 
 Esta parte do projeto ainda necessita de aprimoramentos. 
 
